@@ -1,0 +1,36 @@
+.boton {
+  border: none;
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.boton:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.boton-primario {
+  background: var(--marino);
+  color: #ffffff;
+}
+
+.boton-secundario {
+  background: var(--coral-suave);
+  color: #a83f26;
+}
+
+.boton-peligro {
+  background: transparent;
+  color: #d93a2b;
+  border: 1px solid #f2b3ab;
+}
+
+.boton-exito {
+  background: #2fb26b;
+  color: #ffffff;
+}

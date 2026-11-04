@@ -1,0 +1,41 @@
+.tarjeta-medico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(34, 50, 92, 0.08);
+  padding: 18px 12px 14px;
+}
+
+.tarjeta-medico img {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 3px solid var(--coral);
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.tarjeta-medico h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.tarjeta-medico p {
+  margin: 3px 0;
+  font-size: 12px;
+}
+
+.tarjeta-especialidad {
+  display: inline-block;
+  background: var(--marino);
+  color: #ffffff;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.tarjeta-cmp {
+  color: var(--gris);
+}

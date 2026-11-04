@@ -1,0 +1,51 @@
+.tabla {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 13px;
+}
+
+.tabla th {
+  background: var(--marino);
+  color: #ffffff;
+  font-weight: 500;
+  text-align: left;
+  padding: 9px 10px;
+}
+
+.tabla th:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.tabla th:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+.tabla td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--borde);
+}
+
+.tabla tbody tr:nth-child(even) {
+  background: #fbf9f6;
+}
+
+.buscador {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.buscador input {
+  flex: 1;
+  padding: 8px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.buscador input:focus {
+  outline: none;
+  border-color: var(--coral);
+}
